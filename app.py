@@ -28,7 +28,7 @@ def predict():
     for c in captions:
         st.write(c)
 
-st.title('Image Captioner')
+st.title('Image Captioning 🖼️')
 img_url = st.text_input(label='Enter Image URL')
 
 if (img_url != "") and (img_url != None):
